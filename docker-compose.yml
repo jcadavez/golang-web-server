@@ -3,5 +3,6 @@ version: "3"
 services:
   golang-web-server:
     build: .
+    container_name: golang-wb-server
     ports:
-    - 8080:8080
+    - 1000:1000
